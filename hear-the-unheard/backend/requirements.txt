@@ -1,0 +1,43 @@
+# Web framework
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+
+# Database — MongoDB only, no SQL (see docs/STATUS.md)
+pymongo>=4.6
+
+# Auth
+python-jose[cryptography]>=3.3
+bcrypt>=4.0   # used directly, not via passlib — see app/auth/security.py for why
+
+# Settings
+pydantic[email]>=2.5
+pydantic-settings>=2.2
+
+# Computer vision / ML
+# PINNED to 0.10.13: this is the last MediaPipe release whose pip wheel
+# bundles the hand/pose/face .tflite model weights directly, so the CV
+# pipeline runs fully offline. Newer versions moved to the Tasks API,
+# which downloads .task model files from storage.googleapis.com at
+# runtime — do not upgrade without first verifying that host is reachable
+# in your deployment environment, or vendoring verified model files
+# yourself. See ml/preprocessing/landmark_extractor.py docstring.
+mediapipe>=0.10.30
+opencv-python-headless>=4.9
+numpy>=1.26             # verified working with numpy 2.4.4 in this environment (see tests/)
+protobuf>=4.25,<5.0
+scikit-learn==1.8.0        # PINNED — must match the version pose_classifier_v1.joblib was
+                            # trained with (see ml/models/). scikit-learn's pickle format is
+                            # not guaranteed stable across versions; an unpinned install here
+                            # pulled 1.9.1 and threw InconsistentVersionWarning on load. If you
+                            # retrain the model with a newer scikit-learn, bump this to match.
+joblib==1.5.3               # matches the environment the model was actually trained/saved in
+
+# Real-time
+websockets>=12.0
+
+# Will be added in later phases as those pipelines are implemented:
+# torch, torchvision   — only if a deep model ever replaces the current
+#                          classical classifier (see ml/training/README.md
+#                          for why RandomForest was the right call for now)
+# onnxruntime          — optimized inference export (Phase 12)

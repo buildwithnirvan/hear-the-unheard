@@ -1,0 +1,315 @@
+{
+  "classes": {
+    "afternoon": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "animal": {
+      "total": 18,
+      "succeeded": 18
+    },
+    "bad": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "beautiful": {
+      "total": 9,
+      "succeeded": 9
+    },
+    "big": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "bird": {
+      "total": 18,
+      "succeeded": 18
+    },
+    "blind": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "cat": {
+      "total": 18,
+      "succeeded": 18
+    },
+    "cheap": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "clothing": {
+      "total": 19,
+      "succeeded": 19
+    },
+    "cold": {
+      "total": 20,
+      "succeeded": 20
+    },
+    "cow": {
+      "total": 19,
+      "succeeded": 19
+    },
+    "curved": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "deaf": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "dog": {
+      "total": 18,
+      "succeeded": 18
+    },
+    "dress": {
+      "total": 19,
+      "succeeded": 19
+    },
+    "dry": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "evening": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "expensive": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "famous": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "fast": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "female": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "fish": {
+      "total": 18,
+      "succeeded": 18
+    },
+    "flat": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "friday": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "good": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "happy": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "hat": {
+      "total": 19,
+      "succeeded": 19
+    },
+    "healthy": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "horse": {
+      "total": 18,
+      "succeeded": 18
+    },
+    "hot": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "hour": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "light": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "long": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "loose": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "loud": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "minute": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "monday": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "month": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "morning": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "mouse": {
+      "total": 18,
+      "succeeded": 18
+    },
+    "narrow": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "new": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "night": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "old": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "pant": {
+      "total": 19,
+      "succeeded": 19
+    },
+    "pocket": {
+      "total": 19,
+      "succeeded": 19
+    },
+    "quiet": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "sad": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "saturday": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "second": {
+      "total": 3,
+      "succeeded": 3
+    },
+    "shirt": {
+      "total": 19,
+      "succeeded": 19
+    },
+    "shoes": {
+      "total": 19,
+      "succeeded": 19
+    },
+    "short": {
+      "total": 22,
+      "succeeded": 22
+    },
+    "sick": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "skirt": {
+      "total": 18,
+      "succeeded": 18
+    },
+    "slow": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "small": {
+      "total": 22,
+      "succeeded": 22
+    },
+    "suit": {
+      "total": 18,
+      "succeeded": 18
+    },
+    "sunday": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "t_shirt": {
+      "total": 19,
+      "succeeded": 19
+    },
+    "tall": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "thursday": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "time": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "today": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "tomorrow": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "tuesday": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "ugly": {
+      "total": 8,
+      "succeeded": 8
+    },
+    "warm": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "wednesday": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "week": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "wet": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "wide": {
+      "total": 21,
+      "succeeded": 21
+    },
+    "year": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "yesterday": {
+      "total": 11,
+      "succeeded": 11
+    },
+    "young": {
+      "total": 21,
+      "succeeded": 21
+    }
+  },
+  "failures": [],
+  "started_at": 1789625509.8746095,
+  "finished_at": 1789625558.6716568,
+  "total_runtime_seconds": 48.79704737663269,
+  "total_videos": 1166,
+  "total_succeeded": 1166,
+  "total_failed": 0
+}
